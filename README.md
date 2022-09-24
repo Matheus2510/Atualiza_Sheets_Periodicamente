@@ -1,24 +1,23 @@
-# Atualização de Base de Dados - Google Sheets
+## Atualização de Base de Dados - Google Sheets
 
 Trata-se de uma maneira de atualizar uma base atualizada periodicamente que, em sua estrutura, tem indicado o próprio período. Exemplo: uma tabela atualizada diariamente, que possui uma de suas colunas indicando a data; ou uma tabela atualizada mensalmente, com uma de suas colunas indicando o mês.
 
 O objetivo é evitar a duplicação de dados caso seja necessário complementar ou mesmo revisar determinado período. Exemplo: pagamentos de boletos podem compensar no dia seguinte ou em até 3 dias úteis após o pagamento em si. Em todo caso, se o que importa é a data de pagamento, é necessário atualizar a base de dados de um certo período pelo menos algumas vezes, e corre-se o risco de repetir informações que já estavam na base de dados.
 
-# Tecnologias
+## Tecnologias
 
-Python versão 3.7.14
-Arquivos em formatos diversos (csv, xlsx, json, etc)
+* Python versão 3.7.14
+* Arquivos em formatos diversos (csv, xlsx, json, etc)
 
-# Serviços utilizados
+## Serviços utilizados
 
-Google Colab
-Google Drive
-Google Sheets
+* Google Colab
+* Google Drive
+* Google Sheets
 
-# Como usar
+## Como usar
 
-Primeiramente, é preciso executar o primeiro trecho do código 
-(Imports) para que suas credenciais sejam identificadas e o Google Colab tenha acesso ao seu Google Drive.
+Inicialmente, é preciso executar o primeiro trecho do código (Imports) para que suas credenciais sejam identificadas e o Google Colab tenha acesso ao seu Google Drive.
 
 Em seguida, a partir dos arquivos/fontes brutos de onde os dados úteis serão extraídos, realiza-se a tratativa destes mesmos dados a fim de deixá-los no formato e estrutura do destino final, sempre somente com um período de cada vez.
 
@@ -26,12 +25,9 @@ Com o dataframe resultante em mãos, basta executar a função *atualiza_sheets*
 
 De forma geral, a estrutura do código será a seguinte:
 
-- Imports
-- Definição dos períodos em formato de lista. Exemplo: 
-periodos = ['2022-08-01','2022-08-02','2022-08-03']
-- Tratativa dos dados e execução da função dentro de um laço for. Exemplo:
+periodos = [*inserir os períodos que serão atualizados, em formato de lista*]
 for periodo_str in periodos:
-	#Tratamento dos dados brutos
+	*Realizar o tratamento dos dados e selecionar somente os do período em questão nesta parte do código*
 	
 	atualiza_sheets(sheet, worksheet, df, coluna_periodo, periodo_str)
 
@@ -42,15 +38,16 @@ Após a execução do laço for, os dados dos 3 períodos de exemplo serão atua
 
 # Features
 
-Automatização de atualização de relatórios
-Manipulação de sheets com python
+* Automatização de atualização de relatórios
+* Manipulação de sheets com python
 
 # Links
 
 
 # Versão
-1.0.0.0
+
+* 1.0.0.0
 
 # Autores
 
-Matheus Henrique de Souza: @Matheus2510 (https://github.com/Matheus2510)
+* Matheus Henrique de Souza: @Matheus2510 (https://github.com/Matheus2510)
