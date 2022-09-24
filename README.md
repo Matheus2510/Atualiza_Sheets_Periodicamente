@@ -26,7 +26,9 @@ Com o dataframe resultante em mãos, basta executar a função *atualiza_sheets*
 De forma geral, a estrutura do código será a seguinte:
 
 periodos = [*inserir os períodos que serão atualizados, em formato de lista*]
+
 for periodo_str in periodos:
+
 	*Realizar o tratamento dos dados e selecionar somente os do período em questão nesta parte do código*
 	
 	atualiza_sheets(sheet, worksheet, df, coluna_periodo, periodo_str)
