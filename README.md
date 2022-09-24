@@ -23,17 +23,6 @@ Em seguida, a partir dos arquivos/fontes brutos de onde os dados úteis serão e
 
 Com o dataframe resultante em mãos, basta executar a função *atualiza_sheets* com os seus cinco parâmetros: sheet (nome da planilha a ser atualizada), worksheet (nome da aba a ser atualizada), df (dataframe final), coluna_periodo (nome da coluna que indica a granularidade dos dados) e período_str (o período específico que está sendo atualizado, como a data).
 
-De forma geral, a estrutura do código será a seguinte:
-
-periodos = [*inserir os períodos que serão atualizados, em formato de lista*]
-
-for periodo_str in periodos:
-
-	*Realizar o tratamento dos dados e selecionar somente os do período em questão nesta parte do código*
-	
-	atualiza_sheets(sheet, worksheet, df, coluna_periodo, periodo_str)
-
-
 No arquivo do código, foram criados dados fictícios para os dias 01/08/2022, 02/08/2022 e 03/08/2022. Alguns dos dados do dia 01 já constam na sheets de exemplo.
 
 Após a execução do laço for, os dados dos 3 períodos de exemplo serão atualizados.
@@ -42,9 +31,6 @@ Após a execução do laço for, os dados dos 3 períodos de exemplo serão atua
 
 * Automatização de atualização de relatórios
 * Manipulação de sheets com python
-
-# Links
-
 
 # Versão
 
