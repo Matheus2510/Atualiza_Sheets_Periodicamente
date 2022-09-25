@@ -1,4 +1,4 @@
-![Logo_project](https://github.com/Matheus2510/Atualiza_Sheets_Periodicamente/blob/main/folder/sheets_python.png)
+![Logo_project](https://github.com/Matheus2510/Atualizacao_Base_de_Dados_Google_Sheets/blob/main/folder/Captura%20de%20tela%202022-09-24%20231735.png)
 
 # Atualização de Base de Dados - Google Sheets
 
