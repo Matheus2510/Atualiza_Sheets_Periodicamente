@@ -4,7 +4,7 @@ Trata-se de uma maneira de atualizar uma base atualizada periodicamente que, em 
 
 O objetivo é evitar a duplicação de dados caso seja necessário complementar ou mesmo revisar determinado período. Exemplo: pagamentos de boletos podem compensar no dia seguinte ou em até 3 dias úteis após o pagamento em si. Em todo caso, se o que importa é a data de pagamento, é necessário atualizar a base de dados de um certo período pelo menos algumas vezes, e corre-se o risco de repetir informações que já estavam na base de dados.
 
-## Tecnologias
+# Tecnologias
 
 * Python versão 3.7.14
 * Arquivos em formatos diversos (csv, xlsx, json, etc)
@@ -26,6 +26,9 @@ Com o dataframe resultante em mãos, basta executar a função *atualiza_sheets*
 No arquivo do código, foram criados dados fictícios para os dias 01/08/2022, 02/08/2022 e 03/08/2022. Alguns dos dados do dia 01 já constam na sheets de exemplo.
 
 Após a execução do laço for, os dados dos 3 períodos de exemplo serão atualizados.
+
+
+![sheet_pre_atualizacao] (https://github.com/Matheus2510/Atualiza_Sheets_Periodicamente/blob/main/folder/sheets_pos_atualizacao.png)
 
 # Features
 
