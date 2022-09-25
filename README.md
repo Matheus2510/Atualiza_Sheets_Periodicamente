@@ -1,4 +1,4 @@
-    ![Logo_project](https://github.com/Matheus2510/Atualiza_Sheets_Periodicamente/blob/main/folder/sheets_python.png)
+![Logo_project](https://github.com/Matheus2510/Atualiza_Sheets_Periodicamente/blob/main/folder/sheets_python.png)
 
 # Atualização de Base de Dados - Google Sheets
 
