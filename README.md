@@ -27,8 +27,7 @@ No arquivo do código, foram criados dados fictícios para os dias 01/08/2022, 0
 
 Após a execução do laço for, os dados dos 3 períodos de exemplo serão atualizados.
 
-
-![sheet_pre_atualizacao](https://github.com/Matheus2510/Atualiza_Sheets_Periodicamente/blob/main/folder/sheets_pos_atualizacao.png)
+![sheet_pre_atualizacao](https://github.com/Matheus2510/Atualiza_Sheets_Periodicamente/blob/main/folder/Sheets.png)
 
 # Features
 
