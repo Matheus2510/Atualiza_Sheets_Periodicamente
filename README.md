@@ -1,5 +1,3 @@
-![Logo_project](https://github.com/Matheus2510/Atualizacao_Base_de_Dados_Google_Sheets/blob/main/folder/sheets_python.png)
-
 # Atualização de Base de Dados - Google Sheets
 
 Trata-se de uma maneira de atualizar uma base atualizada periodicamente que, em sua estrutura, tem indicado o próprio período. Exemplo: uma tabela atualizada diariamente, que possui uma de suas colunas indicando a data; ou uma tabela atualizada mensalmente, com uma de suas colunas indicando o mês.
