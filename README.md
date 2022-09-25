@@ -9,13 +9,13 @@ O objetivo é evitar a duplicação de dados caso seja necessário complementar 
 * Python versão 3.7.14
 * Arquivos em formatos diversos (csv, xlsx, json, etc)
 
-## Serviços utilizados
+# Serviços utilizados
 
 * Google Colab
 * Google Drive
 * Google Sheets
 
-## Como usar
+# Como usar
 
 Inicialmente, é preciso executar o primeiro trecho do código (Imports) para que suas credenciais sejam identificadas e o Google Colab tenha acesso ao seu Google Drive.
 
