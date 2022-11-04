@@ -1,4 +1,4 @@
-# Atualização de Base de Dados - Google Sheets
+# Carga de dados (ETL) - Google Sheets
 
 Trata-se de uma maneira de atualizar uma base atualizada periodicamente que, em sua estrutura, tem indicado o próprio período. Exemplo: uma tabela atualizada diariamente, que possui uma de suas colunas indicando a data; ou uma tabela atualizada mensalmente, com uma de suas colunas indicando o mês.
 
